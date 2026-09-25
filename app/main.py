@@ -16,7 +16,10 @@ app = FastAPI(
 # MVP-permissive CORS; tighten before any real deployment.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+    "http://localhost:5173",
+    "https://access-learn-aa3nclm89-logic-loom3.vercel.app",
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
