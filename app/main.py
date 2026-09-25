@@ -18,7 +18,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
     "http://localhost:5173",
-    "https://access-learn-aa3nclm89-logic-loom3.vercel.app",
+    "https://access-learn-ai-virid.vercel.app",
 ],
     allow_credentials=True,
     allow_methods=["*"],
